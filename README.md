@@ -1,4 +1,4 @@
-# This is a Python3 port scanner.
+# Python3 port scanner.
 
 This python3 package is built to scan ports 1-65535 of the users requested IP
  - By calling AF_INET from the sys module, Python knows to communicate with IPv4 addresses. 
