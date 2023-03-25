@@ -8,12 +8,13 @@ print(ascii_banner)
 
 target = input(str("Target IP: "))
 
-#Banner
-print("_" *50)
+# Banner formatting
+print("_" * 50)
 print("Scanning Target: " + target)
 print("Scanning started at: " + str(datetime.now()))
 print("_" * 50)
 
+# Scanner implementation
 try:
     for port in range(1,65535):
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
